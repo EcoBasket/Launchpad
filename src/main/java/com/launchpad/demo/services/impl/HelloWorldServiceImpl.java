@@ -13,7 +13,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Override
     public ResponseEntity<HelloWorld> randomFunction() {
-        return ResponseEntity.ok(new HelloWorld(1, "meters"));
+        return ResponseEntity.ok(new HelloWorld(10, "centimetres"));
     }
 
     @Override
