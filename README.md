@@ -25,6 +25,16 @@ This project was also featured in an article! See [here](https://www.maddyness.c
 
 ## Solution
 
+Our solution to the prompt given to us in the hackathon was to create an app that allows users to track their carbon emissions for each item they add, with a simple ranking system of Low to Very High. It also offers a leaderboard system amongst your friends to gamefy lowering your carbon emissions.
+
+## Prototype
+
+Designed in Figma, we came up with a prototype for our proposed solution, which can be seen below:
+
+![EcoBasket Prototype #1](/images/ecobasket-prototype-1.png)
+
+## Implementation
+
 This is a relatively simple Java Spring CRUD solution. There are alot of bad coding practises in this project (we started working on this around 12 hours into the hackathon, and kept going throughout the night).  Specific food items were hard-coded to work for demonstration purposes. Results from endpoints are returned in JSON format using REST.
 
 Carbon Emission scores are hard-coded, with values coming from [here](https://ourworldindata.org/grapher/ghg-per-kg-poore) (simply used as a proof-of-concept, we didn't really have time to do anything better).
@@ -32,11 +42,5 @@ Carbon Emission scores are hard-coded, with values coming from [here](https://ou
 Leaderboards are calculated by finding a user's friends, getting their scores and ordering them (re-calculated each time).
 
 This project relies heavily on AWS services. Namely, it uses Elastic Beanstalk for hosting the project, DynamoDB for storing user data and friends, and CodePipeline for a simple CI/CD pipeline.
-
-## Prototype
-
-Designed in Figma, we came up with a prototype for our proposed solution, which can be seen below:
-
-![EcoBasket Prototype #1](/images/ecobasket-prototype-1.png)
 
 
