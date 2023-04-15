@@ -21,7 +21,7 @@ EcoBasket helps address the problem of food-related environmental pollution, by 
 
 As part of being one of the winner's of Launchpad, we were invited to particpate in [acceler8](https://uk.linkedin.com/company/acceler8bybe), an 8 week startup accelerator.
 
-This project was also featured in an article! See [here](https://www.maddyness.com/uk/2021/04/01/meet-the-students-who-started-businesses-during-covid-19/)
+EcoBasket was also featured in an article! See [here](https://www.maddyness.com/uk/2021/04/01/meet-the-students-who-started-businesses-during-covid-19/)
 
 ## Solution
 
